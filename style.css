@@ -1,0 +1,540 @@
+		*
+		{
+			margin: 0px;
+			padding: 0px;
+		}
+		.box1
+		{
+			width: 100%;
+			height: 86px;
+		}
+		table
+		{
+			width: 75%;
+			text-align: center;
+			height: 86px;
+			font-size: 30px;
+			float: left;
+			text-transform: uppercase;
+		}
+		td
+		{
+			width: 109px;
+		}
+		td:hover
+		{
+			background-color: lightgrey;
+			color: blue;
+			padding: 3px;
+			cursor: pointer;
+			border-radius: 20px;
+		}
+		.searchb
+		{
+			float: right;
+			width: 25%;
+			text-align: center;
+			height: 86px;
+		}
+		.enter
+		{
+			width: 82%;
+			height: 48px;
+			margin-top: 15px;
+			font-size: 30px;
+			padding: 3px;
+			/*outline: 3px solid green;*/
+			border-radius: 40px;
+			outline-color: green;
+			outline-width: 5px;
+			outline-style: solid;
+			text-align: left;
+		}
+		.box2
+		{
+			width: 100%;
+			height: 840px;
+			background-image: url('images/web developers.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+
+		.box3
+		{
+			width: 100%;
+			height: 540px;	
+			position: relative;
+		}
+	    .one
+		{
+			background-color: red;
+			position: absolute;
+			left: 38%;
+			top:  11%;
+			width: 454px;
+			text-align: center;
+			height: 396px;
+			border-radius: 10px;
+			box-shadow: 5px 5px 5px white;
+			z-index: 3;
+		}
+		.two
+		{
+			background-color: green;
+			position: absolute;
+			right: 24%;
+			top:  15%;
+			width: 350px;
+			border-radius: 10px;
+			text-align: center;
+			box-shadow: 5px 5px 5px white;
+			height: 350px;
+			z-index: 2;
+		}
+		.three
+		{
+			background-color: yellow;
+			position: absolute;
+			left: 24%;
+			top: 15%;
+			text-align: center;
+			width: 350px;
+			border-radius: 10px;
+			box-shadow: 5px 5px 5px white;
+			height: 350px;
+			z-index: 2;
+		}
+
+		.four
+		{
+			background-color: orange;
+			position: absolute;
+			right: 11%;
+			top: 19%;
+			width: 350px;
+			border-radius: 10px;
+			text-align: center;
+			box-shadow: 5px 5px 5px white;
+			height: 313px;
+			z-index: 1;
+		}
+
+		.five
+		{
+			background-color: pink;
+			position: absolute;
+			left: 11%;
+			top: 19%;
+			width: 350px;
+			border-radius: 10px;
+			box-shadow: 5px 5px 5px white;
+			height: 313px;
+			text-align: center;
+			z-index: 1;
+		}
+
+		.six
+		{
+			background-color: fuchsia;
+			position: absolute;
+			left: 1%;
+			top: 23%;
+			width: 350px;
+			border-radius: 10px;
+			box-shadow: 5px 5px 5px white;
+			height: 285px;
+			text-align: center;
+			z-index: 0;
+		}
+
+		.seven
+		{
+			background-color: grey;
+			position: absolute;
+			right: 1%;
+			top: 23%;
+			width: 350px;
+			border-radius: 10px;
+			box-shadow: 5px 5px 5px white;
+			height: 285px;
+			text-align: center;
+			z-index: 0;
+		}
+
+        .circle1
+		{
+			width: 300px;
+			height: 300px;
+			border-radius: 50%;
+			margin-top: 18px;
+		}
+
+        .circle2
+		{
+			width: 255px;
+			height: 255px;
+			border-radius: 50%;
+			margin-top: 18px;
+		}
+
+        .circle3
+		{
+			width: 255px;
+			height: 255px;
+			border-radius: 50%;
+			margin-top: 18px;
+		}
+
+        .circle4
+		{
+			width: 227px;
+			height: 227px;
+			border-radius: 50%;
+			margin-top: 18px;
+		}
+
+        .circle5
+		{
+			width: 227px;
+			height: 227px;
+			border-radius: 50%;
+			margin-top: 18px;
+		}
+
+        .circle6
+		{
+			width: 202px;
+			height: 202px;
+			border-radius: 50%;
+			margin-top: 18px;
+		}
+
+        .circle7
+		{
+			width: 202px;
+			height: 202px;
+			border-radius: 50%;
+			margin-top: 18px;
+		}
+
+
+        .box4
+		{
+			width: 100%;
+			height: 502px;
+			background-image: url('images/layoutback.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.box5
+		{
+			width: 100%;
+			height: 540px;
+			background-color: white;
+			position: relative;
+		}
+
+
+        .circle11
+		{
+			width: 300px;
+			height: 300px;
+			border-radius: 50%;
+			margin-top: 18px;
+		}
+
+        .circle21
+		{
+			width: 255px;
+			height: 255px;
+			border-radius: 50%;
+			margin-top: 18px;
+		}
+
+        .circle31
+		{
+			width: 255px;
+			height: 255px;
+			border-radius: 50%;
+			margin-top: 18px;
+		}
+
+        .circle41
+		{
+			width: 227px;
+			height: 227px;
+			border-radius: 50%;
+			margin-top: 18px;
+		}
+
+        .circle51
+		{
+			width: 227px;
+			height: 227px;
+			border-radius: 50%;
+			margin-top: 18px;
+		}
+
+        .circle61
+		{
+			width: 202px;
+			height: 202px;
+			border-radius: 50%;
+			margin-top: 18px;
+		}
+
+        .circle71
+		{
+			width: 202px;
+			height: 202px;
+			border-radius: 50%;
+			margin-top: 18px;
+		}
+
+		.pbox4
+		{
+			width: 1048px;
+			font-size: 32px;
+			position: relative;
+			top: 47px;
+			left: 40px;
+			color: white;
+			text-align: justify;
+			text-transform: capitalize;
+		}
+		.imgbox4
+		{
+			width: 740px;
+			height: 500px;
+			float: right;
+			position: relative;
+		    top: -346px;
+			right: 40px;
+
+		}
+		.h1box1
+		{
+			font-size: 98px;
+			position: relative;
+			display: inline;
+			top: 21px;
+			left: 40px;
+			text-transform: capitalize;
+			color: white;
+
+		}
+		button
+		{
+			font-size: 30px;
+			position: relative;
+			top: 65px;
+			padding: 20px;
+			left: 440px;
+			background-color: green;
+			text-transform: uppercase;
+			color: white;
+			border-radius: 32px;
+			border: 4px solid white;
+
+		}
+
+
+		.box3 h1
+		{
+			color: white;
+			margin-top: 12px;
+
+		}
+		.title3
+		{
+			color: orange;
+			position: relative;
+			font-size: 61px;
+			text-transform: capitalize;
+			margin-left: 30px;
+
+		}
+
+
+.fourBox
+{
+	width: 100%;
+	height: fit-content;
+	background-color: darkslateblue;
+}
+.fourBoxOne
+{
+	width: 100%;
+	height: 100px;
+}
+.fourBoxTwo
+{
+	width: 100%;
+	height: 440px;
+	text-align: center;
+}
+.shiftone
+{
+	display: inline-block;
+	font-size: 36px;
+	font-family: fantasy;
+	margin-top: 25px;
+	margin-left: 60px;
+	font-weight: bold;
+	color: orange;
+	float: left;
+}
+.shifttwo
+{
+	display: inline-block;
+	background-color: purple;
+	font-size: 28px;
+	border-radius: 30px;
+	font-family: fantasy;
+	margin-top: 25px;
+	text-transform: capitalize;
+	margin-right: 60px;
+	float: right;
+	color: white;
+	padding: 10px;
+}
+.shifttwo:hover
+{
+	background-color: red;
+	color: white;
+	cursor: pointer;
+}
+.subcontainer
+{
+   height: 360px;
+   width: 360px;
+   margin: 20px;
+   margin-top: 30px;
+   background-color: black;
+   display: inline-block;
+   outline: 5px solid white;
+}
+.subimage
+{
+   height: 200px;
+   width: 366px;
+   padding-top: 40px;
+   border-radius: 20px;
+}
+.h2tag
+{
+   font-size: 28px;
+   color: white;
+   margin-top: 40px;
+   text-transform: uppercase;
+}
+.fiveBox
+{
+	width: 100%;
+	height: fit-content;
+}
+.fiveBoxOne
+{
+	width: 100%;
+	height: fit-content;
+	background-color: white;
+	text-align: center;
+}
+.fiveBoxTwo
+{
+	width: 100%;
+	height: 500px;
+	background-color: black;
+	text-align: center;
+}
+.fiveBoxThree
+{
+	width: 100%;
+	height: 100px;
+	background-color: red;
+	text-align: center;
+}
+.lastimg
+{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+
+.fiveh1
+{
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+
+.fivep
+{
+     text-align: justify;
+     padding-left: 50px;
+     padding-right: 50px;
+     font-size: 24px;
+}
+
+.sixBox
+{
+	width: 100%;
+	height: 120px;
+	background-color: blue;
+	text-align: center;
+}
+
+.menuBox
+{
+	font-size: 32px;
+	color: white;
+	position: relative;
+	top: 40px;
+}
+.textDiv
+{
+	background-color: white;
+	width: 400px;
+	margin-top: 50px;
+	margin-left: 20px;
+	display: inline-block;
+	height: 400px;
+}
+span
+{
+	background-color: black;
+	color: white;
+	float: right;
+	margin-right: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	border-radius: 20px;
+}
+span:hover
+{
+	background-color: green;
+	color: yellow;
+	cursor: pointer;
+	padding: 15px;
+	
+}
+
+.texth1
+{
+   padding: 20px;
+}
+.textp	
+{
+	padding: 20px;
+	text-align: justify;
+	font-size: 18px;
+}
+
+
+
+
